@@ -1,37 +1,304 @@
-nav {
-    width: 100%;
-    height: 75px;
+.body {
+    background-color: #EFF1F4;
+    position: relative;
+    left: 10%
 }
 
-.style {
+.style-header {
     width: 1440px;
     height: 48px;
+    color: #FFFFFF;
 }
 
-.logo-kitty {
-    width: 30px;
-    height: 30px;
+.move-image-header {
+    position: relative;
+    top: 0;
+    right: -100px;
 }
 
-
-.map-layer {
-    background-image: url(https://marvel-live.freetls.fastly.net/canvas/2022/4/214752e62a3246119b0385731d7626df?quality=95&fake=.png);
-    background-size: 100%;
-    width: 676px;
-    height: 986px;
+.move-group {
+    position: relative;
+    top: 0;
+    right: -100px;
 }
 
-.text {
+.text-center-custom {
+    color: #000000;
+    font-family: Manrope, serif ;
+    font-size: 14px;
+    letter-spacing: -0.17px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.text-left-custom {
     color: #555555;
+    font-family: Manrope, serif;
+    font-size: 14px;
+    letter-spacing: -0.17px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.title {
+    position: relative;
+    top: 80px;
+    color: #000000;
+    font-family: Manrope, serif;
+    font-size: 40px;
+    letter-spacing: -0.5px;
+    line-height: 48px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.description {
+    position: relative;
+    top: 90px;
+    color: #000000;
+    font-family: Manrope, serif;
+    font-size: 18px;
+    letter-spacing: -0.22px;
+    line-height: 27px;
+    width: 476px;
+    text-align: left;
+}
+
+.form-style {
+    width: 357px;
+    height: 40px;
+}
+
+.label {
+    color: #000000;
+    font-family: Manrope, serif;
+    font-size: 14px;
+    letter-spacing: -0.17px;
+    line-height: 17px;
+    text-align: left;
+}
+
+.group-name {
+    position: relative;
+    top: 90px;
+    vertical-align:middle;
+}
+
+.group-email-address {
+    position: relative;
+    top: 120px;
+}
+
+.divider {
+    position: relative;
+    top: 150px;
+    background-color: #D8D8D8;
+    width: 476px;
+    height: 2px;
+}
+
+.group-city {
+    position: relative;
+    top: 170px;
+}
+
+.group-postal-code {
+    position: relative;
+    top: 170px;
+    left: 180px;
+}
+
+.group-address {
+    position: relative;
+    top: 200px;
+    left: 0;
+}
+
+.feedback {
+    position: relative;
+    top: 230px;
+    left: 0;
+}
+
+.checkbox {
+    position: relative;
+    top: 245px;
+    left: 0;
+}
+
+.checkbox-image {
+    position: relative;
+    top: 0;
+    left: -28.75px;
+}
+
+.button-send {
+    position: relative;
+    top: 130px;
+    left: 0;
+    /*color: #EF7878 ;*/
+}
+
+.btn-danger,
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger:visited,
+.btn-danger:focus{
+    background-color:#EF7878 !important;
+    border-color: #EF7878 !important;
+}
+
+.btn-xl{
+    padding: 10px 60px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.map-img {
+    position: relative;
+    top: -500px;
+    left: 350px;
+}
+
+.text-h1 {
+    position: relative;
+    top: 40px;
+    left: 500px
+    color: #000000;
+    font-family: Manrope, serif;
+    font-size: 24px;
+    letter-spacing: -0.3px;
+    line-height: 27px;
+    width: 476px;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.text-p{
+    position: relative;
+    top: 60px;
+    left: -180px;
+    color: #000000;
+    font-family: Manrope, serif;
+    font-size: 18px;
+    letter-spacing: -0.22px;
+    line-height: 27px;
+    width: 476px;
+    text-align: right;
+}
+
+.footer-background {
+    background-color: #000000;
+    width: 1440px;
+    height: 174px;
+}
+
+.text-policy {
+    position: relative;
+    bottom: -60px;
+    left: 410px;
+    color: #FFFFFF;
     font-family: Manrope, serif;
     font-size: 14px;
     letter-spacing: -0.17px;
     line-height: 22.5px;
     text-align: left;
+    font-weight: bolder;
 }
 
-.underline {
-    background-color: #A0A9BA;
-    width: 1440px;
-    height: 1px;
+.text-terms {
+    position: relative;
+    bottom: -60px;
+    left: 470px;
+    color: #FFFFFF;
+    font-family: Manrope, serif;
+    font-size: 14px;
+    letter-spacing: -0.17px;
+    line-height: 22.5px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.text-blog {
+    position: relative;
+    bottom: -60px;
+    left: 530px;
+    color: #FFFFFF;
+    font-family: Manrope, serif;
+    font-size: 14px;
+    letter-spacing: -0.17px;
+    line-height: 22.5px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.text-support {
+    position: relative;
+    bottom: -60px;
+    left: 590px;
+    color: #FFFFFF;
+    font-family: Manrope, serif;
+    font-size: 14px;
+    letter-spacing: -0.17px;
+    line-height: 22.5px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.move-image-footer {
+    position: relative;
+    bottom: -80px;
+    left: 0;
+}
+
+.move-label-optional {
+    position: relative;
+    top: -40px;
+    left: 390px;
+    color: #9784FF
+}
+
+.move-text-area {
+    position: relative;
+    top: -40px;
+    left: 0 ;
+}
+
+.move-discord-icon {
+    position: relative;
+    bottom: -15px;
+    left: 1100px;
+}
+
+.move-twitter-icon {
+    position: relative;
+    bottom: 82px;
+    left: 1150px;
+}
+
+.move-instagram-icon {
+    position: relative;
+    bottom: 176px;
+    left: 1200px;
+}
+
+.move-group-2 {
+    position: relative;
+    bottom: 30px;
+
+}
+
+.move-copyright {
+    position: relative;
+    bottom: 180px;
+    left: 600px;
+}
+
+.text-copyright {
+    color: #E1E4EA;
+    font-family: Manrope, serif;
+    font-size: 12px;
+    letter-spacing: -0.15px;
+    line-height: 22.5px;
+    text-align: left;
 }
