@@ -302,3 +302,9 @@
     line-height: 22.5px;
     text-align: left;
 }
+
+.move-footer {
+    position: relative;
+    bottom: 150px;
+    left: 0;
+}
